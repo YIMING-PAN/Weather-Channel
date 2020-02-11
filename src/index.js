@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import thunkMiddleware from 'redux-thunk';
 import { applyMiddleware, createStore } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import { composeWithDevTools } from 'redux-devtools-extension/logOnlyInProduction';
 import { Provider } from 'react-redux';
 
 import App from './App';
